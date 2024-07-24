@@ -14,6 +14,7 @@ model {
       technology 'Flutter'
       description 'The mobile app of the cloud system'
       link https://flutter.dev/
+      icon tech:flutter
       
       -> cloud.backend.graphql 'fetches data'
       -> aws.cognito 'authenticates'

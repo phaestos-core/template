@@ -43,6 +43,7 @@ model {
     cognito = component 'Cognito' {
       link https://aws.amazon.com/cognito/
       description 'Provides user management and authentication'
+      icon aws:cognito
     }
   }
 

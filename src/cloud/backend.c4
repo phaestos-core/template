@@ -6,9 +6,7 @@ model {
       technology 'AWS Aurora PostgreSQL'
       description 'Database for storing relational data'
       link https://aws.amazon.com/rds/postgresql/
-      style {
-        icon https://icons.terrastruct.com/dev%2Fpostgresql.svg
-      }
+      icon tech:postgresql  
 
       tbl_customers = db_table '[ customers ]' {
         technology '<< private schema >>'
