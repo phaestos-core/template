@@ -10,6 +10,6 @@
     "export:png": "likec4 export png -o ./png"
   },
   "devDependencies": {
-    "likec4": "latest"
+    "likec4": "^1.17.1"
   }
 }
